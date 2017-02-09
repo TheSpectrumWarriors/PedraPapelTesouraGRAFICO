@@ -27,6 +27,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormJogo));
             this.buttonPedra = new System.Windows.Forms.Button();
             this.labelEscolha = new System.Windows.Forms.Label();
             this.buttonPapel = new System.Windows.Forms.Button();
@@ -151,6 +152,7 @@
             this.Controls.Add(this.buttonPapel);
             this.Controls.Add(this.labelEscolha);
             this.Controls.Add(this.buttonPedra);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormJogo";
             this.Text = "Pedra/Papel/Tesoura";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUser)).EndInit();
