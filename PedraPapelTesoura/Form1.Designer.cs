@@ -36,6 +36,7 @@
             this.pictureBoxPC = new System.Windows.Forms.PictureBox();
             this.labelGanhador = new System.Windows.Forms.Label();
             this.labelResultado = new System.Windows.Forms.Label();
+            this.labelhomo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPC)).BeginInit();
             this.SuspendLayout();
@@ -126,11 +127,21 @@
             this.labelResultado.TabIndex = 8;
             this.labelResultado.Text = "Resultado:  0 (Tu)  -  0 (PC)";
             // 
+            // labelhomo
+            // 
+            this.labelhomo.AutoSize = true;
+            this.labelhomo.Location = new System.Drawing.Point(106, 206);
+            this.labelhomo.Name = "labelhomo";
+            this.labelhomo.Size = new System.Drawing.Size(73, 13);
+            this.labelhomo.TabIndex = 9;
+            this.labelhomo.Text = "O quico é gay";
+            // 
             // FormJogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.labelhomo);
             this.Controls.Add(this.labelResultado);
             this.Controls.Add(this.labelGanhador);
             this.Controls.Add(this.pictureBoxPC);
@@ -160,6 +171,7 @@
         private System.Windows.Forms.PictureBox pictureBoxPC;
         private System.Windows.Forms.Label labelGanhador;
         private System.Windows.Forms.Label labelResultado;
+        private System.Windows.Forms.Label labelhomo;
     }
 }
 
